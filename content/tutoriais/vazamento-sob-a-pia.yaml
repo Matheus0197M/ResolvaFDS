@@ -1,0 +1,27 @@
+slug: vazamento-sob-a-pia
+titulo: Vazamento sob a pia
+categoria: cozinha
+resumo: Identifique conexões soltas ou flexíveis danificados e faça o aperto ou substituição.
+dificuldade: facil
+tempo_min: 20
+tags: [vazamento, pia, armario, flexivel]
+sinonimos: [agua no armario da pia, pingo embaixo da pia]
+sintomas: [presenca de agua na base do armario da pia]
+perguntas_triagem:
+  - A água aparece apenas quando a torneira é aberta?
+  - O flexível ou o sifão apresentam gotejamento constante?
+avisos:
+  - Desligue disjuntores próximos se houver risco de contato da água com tomadas.
+materiais: [Balde, Pano seco, Chave inglesa, Fita veda-rosca, Flexível novo]
+passos:
+  - titulo: Seque e identifique
+    texto: |
+      Seque bem o local com um pano e abra a torneira brevemente para observar a origem exata do pingo.
+  - titulo: Aperte ou substitua
+    texto: |
+      Feche o registro, reaperte as roscas com fita veda-rosca ou substitua o flexível se estiver ressecado.
+videos:
+  - id: exemploID7
+    titulo: Vazamento embaixo da pia como resolver
+    canal: Canal Exemplo
+    inicio: 0

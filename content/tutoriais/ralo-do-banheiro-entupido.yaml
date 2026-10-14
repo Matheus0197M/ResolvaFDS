@@ -1,0 +1,30 @@
+slug: ralo-do-banheiro-entupido
+titulo: Ralo do banheiro entupido
+categoria: banheiro
+resumo: Remova acúmulos de cabelo e sabão para restaurar o escoamento da água do box.
+dificuldade: facil
+tempo_min: 15
+tags: [ralo, entupimento, box, limpeza]
+sinonimos: [agua empoada no box, ralo lento]
+sintomas: [agua demora a escoar no box]
+perguntas_triagem:
+  - A água está acumulando enquanto você toma banho?
+  - Consegue ver fios de cabelo acumulados na grade?
+avisos:
+  - Evite o uso de ácidos fortes que possam corroer a tubulação.
+materiais: [Luvas, Chave de fenda ou espátula plástica, Arame grosso, Água quente, Detergente neutro]
+passos:
+  - titulo: Remova a grade
+    texto: |
+      Retire a tampa ou grade do ralo do box com auxílio de uma ferramenta adequada.
+  - titulo: Limpe os resíduos
+    texto: |
+      Utilize luvas e remova manualmente ou com o arame os cabelos e detritos presos.
+  - titulo: Despeje água quente
+    texto: |
+      Jogue água quente (não fervente) misturada com detergente para dissolver a gordura de sabão.
+videos:
+  - id: exemploID3
+    titulo: Como limpar ralo do banheiro entupido
+    canal: Canal Exemplo
+    inicio: 0

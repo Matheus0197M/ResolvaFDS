@@ -1,0 +1,37 @@
+slug: vaso-entupido
+titulo: Vaso sanitário entupido
+categoria: banheiro
+resumo: A água não desce ou transborda; desentupa com segurança usando a ferramenta adequada.
+dificuldade: facil
+tempo_min: 15
+tags: [vaso, entupimento, banheiro, hidraulica]
+sinonimos: [privada entupida, vaso entupido, vaso transbordando]
+sintomas: [agua nao desce, agua sobe no vaso]
+perguntas_triagem:
+  - A água está subindo a ponto de transbordar?
+  - O problema começou após o uso excessivo de papel?
+avisos:
+  - Não misture produtos de limpeza químicos com o desentupidor.
+  - Se houver transbordo frequente, chame um encanador.
+materiais: [Desentupidor de borracha tipo campana, Luvas de borracha, Água morna, Balde, Pano velho]
+passos:
+  - titulo: Proteja o local
+    texto: |
+      Use luvas de borracha e proteja o piso ao redor do vaso com um pano velho.
+  - titulo: Retire o excesso de água
+    texto: |
+      Se o nível da água estiver muito alto, retire um pouco com o balde para evitar transbordos.
+  - titulo: Posicione o desentupidor
+    texto: |
+      Encaixe o desentupidor cobrindo totalmente o furo de saída do vaso sanitário.
+  - titulo: Faça os movimentos
+    texto: |
+      Realize movimentos firmes de vai-e-vem por 20 a 30 segundos, sem descolar a borracha.
+  - titulo: Teste o escoamento
+    texto: |
+      Acione a descarga para verificar se o fluxo normalizou. Repita se necessário.
+videos:
+  - id: exemploID1
+    titulo: Como desentupir vaso sanitário com desentupidor
+    canal: Canal Exemplo
+    inicio: 0

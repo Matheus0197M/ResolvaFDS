@@ -1,0 +1,30 @@
+slug: tomada-sem-energia-ou-frouxa
+titulo: Tomada sem energia ou frouxa
+categoria: sala
+resumo: Restabeleça a fixação e o funcionamento seguro de tomadas elétricas.
+dificuldade: medio
+tempo_min: 30
+tags: [tomada, eletrica, energia, reparo]
+sinonimos: [tomada solta, tomada sem luz]
+sintomas: [aparelho nao liga na tomada ou plugue fica solto]
+perguntas_triagem:
+  - O disjuntor correspondente está armado?
+  - A tomada cede para dentro da parede ao empurrar o plugue?
+avisos:
+  - É obrigatório desligar o disjuntor geral ou do circuito antes de mexer em fios.
+materiais: [Chave de fenda isolada, Testador de tensão, Tomada nova compatível, Luvas secas]
+passos:
+  - titulo: Desligue o disjuntor
+    texto: |
+      Vá ao quadro de distribuição e desligue o disjuntor específico da tomada.
+  - titulo: Confirme a ausência de energia
+    texto: |
+      Use o testador de tensão para garantir que não há corrente elétrica passando pelos fios.
+  - titulo: Ajuste ou substitua
+    texto: |
+      Retire a tampa, reaperte os parafusos internos de fixação dos fios ou troque o módulo da tomada.
+videos:
+  - id: exemploID8
+    titulo: Como trocar tomada com segurança
+    canal: Canal Exemplo
+    inicio: 0

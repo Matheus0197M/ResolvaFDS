@@ -1,0 +1,31 @@
+slug: vazamento-de-agua-geral
+slug_alternativo: vazamento-de-agua-em-casa
+titulo: Vazamento de água em casa
+categoria: outros
+resumo: Conte vazamentos iniciais e localize indícios de desperdício em tubulações.
+dificuldade: facil
+tempo_min: 30
+tags: [vazamento, hidrometro, conta-alta, agua]
+sinonimos: [conta de agua alta, vazamento oculto]
+sintomas: [hidrometro gira sem uso de agua ou barulho de pingo nas paredes]
+perguntas_triagem:
+  - O valor da conta de água subiu repentinamente?
+  - Há ruído de água correndo mesmo com todas as torneiras fechadas?
+avisos:
+  - Nunca quebre paredes ou pisos sem antes confirmar a origem exata do vazamento oculto.
+materiais: [Lanterna, Pano, Balde, Chave de registro, Fita veda-rosca]
+passos:
+  - titulo: Feche os registros e teste o hidrômetro
+    texto: |
+      Feche todas as torneiras e não utilize vasos. Verifique se o ponteiro do hidrômetro continua rodando.
+  - titulo: Inspecione conexões aparentes
+    texto: |
+      Verifique registros, áreas sob pias e engates flexíveis visíveis em busca de goteiras.
+  - titulo: Acione um profissional
+    texto: |
+      Caso o hidrômetro continue girando sem vazamentos aparentes, chame um encanador especializado.
+videos:
+  - id: exemploID10
+    titulo: Como identificar vazamento de água em casa
+    canal: Canal Exemplo
+    inicio: 0
