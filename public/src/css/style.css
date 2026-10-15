@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Hand:wght@400..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* HEADER */
+header{
+    background: #00989d;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header h2{
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+h2 a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+h2 span{
+    color: gold;
+}
+
+form input {
+    padding: 0.6rem;
+    border: none;
+    border-radius: 1pc;
+}
+
+form button{
+    border-radius: 1pc;
+    padding: 0.6rem;
+    background: #004954;
+    color: white;
+    border: 1px solid cadetblue;
+}
+
+/* BODY */
+#app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+h1{
+    font-family: 'Space Grotesk', sans-serif;
+    padding: 5rem;
+}
+
+.h2{
+    font-family: 'Edu QLD Hand', sans-serif;
+}
+
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    width: 100dvw;
+    padding: 1rem 5rem;
+    gap: calc(1rem + 1rem);
+}
+
+.areaProblema{
+    /* background: #2f8bb9; */
+    height: 450px;
+    width: 600px;
+}
+
+.areaProblema p{
+    text-decoration: none;
+    z-index: 10;
+    color: aliceblue;
+    background-color: rgba(100, 100, 100, 0.7);
+    position: relative;
+    bottom: 6rem;
+    text-align: center;
+    padding: 2rem;
+    font-size: 1.8rem;
+    border-radius: 2pc;
+}
+
+img{
+    width: 600px;
+    height: 450px;
+    border-radius: 2pc;
+}
+
+/* MOBILE */
+@media screen  and (max-width: 768px) {
+    body, #app{
+
+    }
+}

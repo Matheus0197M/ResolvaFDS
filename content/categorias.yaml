@@ -1,0 +1,21 @@
+- id: banheiro
+  nome: Banheiro
+  icone: /assets/banheiro.png
+- id: cozinha
+  nome: Cozinha
+  icone: /assets/cozinha.png
+- id: corredor
+  nome: Corredor
+  icone: /assets/corredor.png
+- id: quarto
+  nome: Quarto
+  icone: /assets/quarto.png
+- id: sala
+  nome: Sala
+  icone: /assets/sala.png
+- id: area-externa
+  nome: Área Externa
+  icone: /assets/areaExterna.png
+- id: outros
+  nome: Outros
+  icone: /assets/outros.png

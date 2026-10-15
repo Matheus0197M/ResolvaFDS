@@ -27,8 +27,8 @@ passos:
   - titulo: Teste o sistema
     texto: |
       Abra o registro devagar, aguarde encher e teste a descarga.
-videos:
-  - id: exemploID2
-    titulo: Caixa acoplada vazando como resolver
-    canal: Canal Exemplo
-    inicio: 0
+# videos:
+#   - id: exemploID2
+#     titulo: Caixa acoplada vazando como resolver
+#     canal: Canal Exemplo
+#     inicio: 0

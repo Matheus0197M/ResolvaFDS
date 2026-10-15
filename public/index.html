@@ -10,71 +10,79 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="icon" href="./assets/face-smile-solid-full.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./src/css/style.css">
     <title>Resolva em um FDS!</title>
   </head>
   <body>
-    <main>
-      <header>
-        <h2>Resolva em um FDS!</h2>
-        <nav>
-          <form action="POST">
-            <input type="text" placeholder="Pesquisar" required />
-            <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
-          </form>
-        </nav>
-      </header>
+    <header>
+      <h2><a href="">Resolva em um <span class="h2">FDS!</span></a></h2>
+      <nav>
+        <form role="search">
+          <input type="search" placeholder="Pesquisar" required />
+          <button type="submit" aria-label="Pesquisar">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </form>
+      </nav>
+    </header>
+    <main id="app" tabindex="-1">
+      <article class="">
+        <h1>Onde está seu problema?</h1>
+      </article>
       <section>
-        <h1>Onde se encontra seu problema?</h1>
-        <article class="">
-          <a href="./src/pages/all.html">
-            <img src="./src/assets/todas.png" alt="" />
+        <article class="areaProblema">
+          <a href="#">
+            <img src="./assets/todas.png" alt="" />
             <p>Todos os problemas</p>
           </a>
         </article>
-        <article class="">
-          <a href="./src/pages/areaExterna.html">
-            <img src="./src/assets/areaExterna.png" alt="" />
+        <article class="areaProblema">
+          <a href="#">
+            <img src="./assets/areaExterna.png" alt="" />
             <p>Área Externa</p>
           </a>
         </article>
-        <article class="">
-          <a href="./src/pages/banheiro.html">
-            <img src="./src/assets/banheiro.png" alt="" />
+        <article class="areaProblema">
+          <a href="#">
+            <img src="./assets/banheiro.png" alt="" />
             <p>Banheiro</p>
           </a>
         </article>
-        <article class="">
-          <a href="./src/pages/corredor.html">
-            <img src="./src/assets/corredor.png" alt="" />
+        <article class="areaProblema">
+          <a href="#">
+            <img src="./assets/corredor.png" alt="" />
             <p>Corredor</p>
           </a>
         </article>
-        <article class="">
-          <a href="./src/pages/cozinha.html">
-            <img src="./src/assets/cozinha.png" alt="" />
+        <article class="areaProblema">
+          <a href="#">
+            <img src="./assets/cozinha.png" alt="" />
             <p>Cozinha</p>
           </a>
         </article>
-        <article class="">
-          <a href="./src/pages/quarto.html">
-            <img src="./src/assets/quarto.png" alt="" />
+        <article class="areaProblema">
+          <a href="#">
+            <img src="./assets/quarto.png" alt="" />
             <p>Quarto</p>
           </a>
         </article>
-        <article class="">
-          <a href="./src/pages/sala.html">
-            <img src="./src/assets/sala.png" alt="" />
+        <article class="areaProblema">
+          <a hr="#">
+            <img src="./assets/sala.png" alt="" />
             <p>Sala</p>
           </a>
         </article>
-        <article class="">
-          <a href="./src/pages/outros.html">
-            <img src="./src/assets/outros.png" alt="" />
+        <article class="areaProblema">
+          <a href="#">
+            <img src="./assets/outros.png" alt="" />
             <p>Outros</p>
           </a>
         </article>
       </section>
-      <footer></footer>
     </main>
+    <footer></footer>
+
+    <script type="module" src="/src/js/main.js"></script>
   </body>
 </html>

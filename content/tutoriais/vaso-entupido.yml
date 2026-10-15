@@ -30,8 +30,8 @@ passos:
   - titulo: Teste o escoamento
     texto: |
       Acione a descarga para verificar se o fluxo normalizou. Repita se necessário.
-videos:
-  - id: exemploID1
-    titulo: Como desentupir vaso sanitário com desentupidor
-    canal: Canal Exemplo
-    inicio: 0
+# videos:
+#   - id: exemploID1
+#     titulo: Como desentupir vaso sanitário com desentupidor
+#     canal: Canal Exemplo
+#     inicio: 0

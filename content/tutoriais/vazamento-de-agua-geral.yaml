@@ -24,8 +24,8 @@ passos:
   - titulo: Acione um profissional
     texto: |
       Caso o hidrômetro continue girando sem vazamentos aparentes, chame um encanador especializado.
-videos:
-  - id: exemploID10
-    titulo: Como identificar vazamento de água em casa
-    canal: Canal Exemplo
-    inicio: 0
+# videos:
+#   - id: exemploID10
+#     titulo: Como identificar vazamento de água em casa
+#     canal: Canal Exemplo
+#     inicio: 0

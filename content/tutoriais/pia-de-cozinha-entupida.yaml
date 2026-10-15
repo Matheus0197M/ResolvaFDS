@@ -23,8 +23,8 @@ passos:
   - titulo: Remonte e teste
     texto: |
       Recoloque o sifão garantindo o aperto correto das roscas e despeje água quente com detergente.
-videos:
-  - id: exemploID6
-    titulo: Pia de cozinha entupida como desentupir
-    canal: Canal Exemplo
-    inicio: 0
+# videos:
+#   - id: exemploID6
+#     titulo: Pia de cozinha entupida como desentupir
+#     canal: Canal Exemplo
+#     inicio: 0
