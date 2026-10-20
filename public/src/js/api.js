@@ -4,7 +4,7 @@ function getJSON(caminho) {
   if (!cache.has(caminho)) {
     cache.set(
       caminho,
-      fetch(`/data/${caminho}`)
+      fetch(new URL(`../../data/${caminho}`, import.meta.url))
         .then((r) => {
           if (!r.ok) throw new Error(`HTTP ${r.status} em ${caminho}`);
           return r.json();

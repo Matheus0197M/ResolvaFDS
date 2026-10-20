@@ -1,0 +1,30 @@
+{
+  "short_name": "ResolvaFDS",
+  "name": "Resolva em um FDS!",
+  "description": "Ajuda a resolver problemas práticos e básicos do dia a dia em casa.",
+  "icons": [
+    {
+      "src": "./assets/Rfds-192px.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any"
+    },
+    {
+      "src": "./assets/Rfds512px.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any"
+    },
+    {
+      "src": "./assets/icon-maskable.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "maskable"
+    }
+  ],
+  "start_url": "./index.html#/home",
+  "background_color": "#f4f8f7",
+  "theme_color": "#00989d",
+  "display": "standalone",
+  "scope": "./"
+}

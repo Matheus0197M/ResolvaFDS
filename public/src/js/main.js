@@ -12,6 +12,8 @@ const rotaInicial = location.hash || "#/home";
 const historicoRotas = [];
 let rotaAtual = rotaInicial;
 let navegandoParaTras = false;
+const caminhoDaImagem = (caminho) =>
+  new URL(caminho.replace(/^\/+/, ""), document.baseURI).href;
 
 const cartaoTutorial = (t) =>
   h(
@@ -59,7 +61,7 @@ const views = {
             h(
               "a",
               { href: `#/categoria/${c.id}` },
-              h("img", { src: c.icone, alt: "", loading: "lazy" }),
+              h("img", { src: caminhoDaImagem(c.icone), alt: "", loading: "lazy" }),
               h("p", {}, c.nome)
             )
           )
