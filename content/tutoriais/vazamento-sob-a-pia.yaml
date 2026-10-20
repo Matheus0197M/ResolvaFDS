@@ -20,8 +20,8 @@ passos:
   - titulo: Aperte ou substitua
     texto: |
       Feche o registro, reaperte as roscas com fita veda-rosca ou substitua o flexível se estiver ressecado.
-# videos:
-#   - id: exemploID7
-#     titulo: Vazamento embaixo da pia como resolver
-#     canal: Canal Exemplo
-#     inicio: 0
+videos:
+  - id: Fwfq2bEoqEo
+    titulo: Vazamento embaixo da pia como resolver
+    canal: Canal Exemplo
+    inicio: 0

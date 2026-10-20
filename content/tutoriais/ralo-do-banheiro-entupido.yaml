@@ -23,8 +23,8 @@ passos:
   - titulo: Despeje água quente
     texto: |
       Jogue água quente (não fervente) misturada com detergente para dissolver a gordura de sabão.
-# videos:
-#   - id: exemploID3
-#     titulo: Como limpar ralo do banheiro entupido
-#     canal: Canal Exemplo
-#     inicio: 0
+videos:
+  - id: v8dNnEppF8w
+    titulo: Como limpar ralo do banheiro entupido
+    canal: Canal Exemplo
+    inicio: 0

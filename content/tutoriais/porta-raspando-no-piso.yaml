@@ -23,8 +23,8 @@ passos:
   - titulo: Utilize cunhas se necessário
     texto: |
       Apoie a porta com cunhas ao realizar ajustes finos para que ela não ceda.
-# videos:
-#   - id: exemploID9
-#     titulo: Porta raspando no piso como ajustar
-#     canal: Canal Exemplo
-#     inicio: 0
+videos:
+  - id: FCfmzRjtW6g
+    titulo: Porta raspando no piso como ajustar
+    canal: Canal Exemplo
+    inicio: 0

@@ -17,6 +17,8 @@ export function VideoCard({ id, titulo, canal, inicio = 0 }) {
           src: `https://www.youtube-nocookie.com/embed/${id}?autoplay=1&start=${inicio}`,
           title: titulo,
           allow: "autoplay; encrypted-media; picture-in-picture",
+          loading: "lazy",
+          referrerpolicy: "strict-origin-when-cross-origin",
           allowfullscreen: "",
         })
       );

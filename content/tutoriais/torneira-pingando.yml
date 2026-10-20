@@ -23,8 +23,8 @@ passos:
   - titulo: Troque o reparo
     texto: |
       Substitua o cartucho cerâmico ou a borracha de vedação desgastada por uma nova compatível.
-# videos:
-#   - id: SN_5gkpNhW0
-#     titulo: Torneira pingando como consertar
-#     canal: Canal Exemplo
-#     inicio: 0
+videos:
+  - id: SN_5gkpNhW0
+    titulo: Torneira pingando como consertar
+    canal: Canal Exemplo
+    inicio: 0

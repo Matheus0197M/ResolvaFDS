@@ -6,8 +6,22 @@ RAIZ = Path(__file__).resolve().parent.parent
 CONTEUDO = RAIZ / "content"
 SLUG = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
 OBRIGATORIOS = {"slug", "titulo", "categoria", "resumo", "passos"}
-CAMPOS_INDICE = ("slug", "titulo", "categoria", "resumo",
-                 "dificuldade", "tempo_min", "tags", "sinonimos")
+CAMPOS_INDICE = (
+    "slug",
+    "titulo",
+    "categoria",
+    "resumo",
+    "dificuldade",
+    "tempo_min",
+    "tags",
+    "sinonimos",
+    "sintomas",
+    "perguntas_triagem",
+    "avisos",
+    "materiais",
+    "passos",
+    "videos",
+)
 
 
 def _ler(caminho: Path):
@@ -26,15 +40,21 @@ def _validar(t: dict, caminho: Path, categorias: set[str]) -> None:
         raise ValueError(f"{caminho.name}: slug inválido ou diferente do arquivo")
     if t["categoria"] not in categorias:
         raise ValueError(f"{caminho.name}: categoria desconhecida '{t['categoria']}'")
-    # for v in t.get("videos", []):
-    #     if not re.fullmatch(r"[\w-]{11}", v["id"]):
-    #         raise ValueError(f"{caminho.name}: id de vídeo inválido '{v['id']}'")
+    for v in t.get("videos", []):
+        if not re.fullmatch(r"[\w-]{11}", v["id"]):
+            raise ValueError(f"{caminho.name}: id de vídeo inválido '{v['id']}'")
 
 
 def carregar_tutoriais(categorias: list[dict]) -> list[dict]:
     ids = {c["id"] for c in categorias}
     tutoriais = []
-    for caminho in sorted((CONTEUDO / "tutoriais").glob("*.yaml")):
+    arquivos = sorted(
+        [
+            *((CONTEUDO / "tutoriais").glob("*.yaml")),
+            *((CONTEUDO / "tutoriais").glob("*.yml")),
+        ]
+    )
+    for caminho in arquivos:
         t = _ler(caminho)
         _validar(t, caminho, ids)
         tutoriais.append(t)

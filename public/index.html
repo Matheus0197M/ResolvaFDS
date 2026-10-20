@@ -10,79 +10,92 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="icon" href="./assets/face-smile-solid-full.svg" type="image/x-icon">
+    <link rel="icon" href="./assets/face-smile-solid-full.svg" type="image/svg+xml">
     <link rel="stylesheet" href="./src/css/style.css">
     <title>Resolva em um FDS!</title>
   </head>
   <body>
     <header>
-      <h2><a href="">Resolva em um <span class="h2">FDS!</span></a></h2>
-      <nav>
+      <h2><a href="#/home">Resolva em um <span class="h2">FDS!</span></a></h2>
+      <div class="header__controles">
+        <nav class="header__busca">
         <form role="search">
-          <input type="search" placeholder="Pesquisar" required />
+          <input
+            type="search"
+            name="q"
+            placeholder="Problema, sintoma, material ou solução"
+            required
+          />
           <button type="submit" aria-label="Pesquisar">
             <i class="fa-solid fa-magnifying-glass"></i>
           </button>
         </form>
-      </nav>
+        </nav>
+        <div class="menu">
+          <button
+            class="menu__botao"
+            id="menu-toggle"
+            type="button"
+            aria-label="Abrir menu"
+            aria-expanded="false"
+            aria-controls="menu-principal"
+          >
+            <img src="./assets/bars-staggered-solid-full.svg" alt="" />
+          </button>
+          <button class="menu__scrim" id="menu-scrim" type="button" aria-label="Fechar menu" hidden></button>
+          <div class="menu__painel" id="menu-principal" hidden>
+            <a class="menu__item" id="menu-inicio" href="#/home">
+              <img src="./assets/house-solid-full.svg" alt="" />
+              <span>Voltar ao início</span>
+            </a>
+            <div class="menu__temas" aria-label="Tema do app">
+              <span class="menu__rotulo">Tema do app</span>
+              <button class="menu__item" type="button" data-tema="light" aria-pressed="false">
+                <img src="./assets/sun-solid-full.svg" alt="" />
+                <span>Claro</span>
+              </button>
+              <button class="menu__item" type="button" data-tema="dark" aria-pressed="false">
+                <img src="./assets/moon-solid-full.svg" alt="" />
+                <span>Escuro</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
     </header>
-    <main id="app" tabindex="-1">
-      <article class="">
-        <h1>Onde está seu problema?</h1>
-      </article>
-      <section>
-        <article class="areaProblema">
-          <a href="#">
-            <img src="./assets/todas.png" alt="" />
-            <p>Todos os problemas</p>
-          </a>
-        </article>
-        <article class="areaProblema">
-          <a href="#">
-            <img src="./assets/areaExterna.png" alt="" />
-            <p>Área Externa</p>
-          </a>
-        </article>
-        <article class="areaProblema">
-          <a href="#">
-            <img src="./assets/banheiro.png" alt="" />
-            <p>Banheiro</p>
-          </a>
-        </article>
-        <article class="areaProblema">
-          <a href="#">
-            <img src="./assets/corredor.png" alt="" />
-            <p>Corredor</p>
-          </a>
-        </article>
-        <article class="areaProblema">
-          <a href="#">
-            <img src="./assets/cozinha.png" alt="" />
-            <p>Cozinha</p>
-          </a>
-        </article>
-        <article class="areaProblema">
-          <a href="#">
-            <img src="./assets/quarto.png" alt="" />
-            <p>Quarto</p>
-          </a>
-        </article>
-        <article class="areaProblema">
-          <a hr="#">
-            <img src="./assets/sala.png" alt="" />
-            <p>Sala</p>
-          </a>
-        </article>
-        <article class="areaProblema">
-          <a href="#">
-            <img src="./assets/outros.png" alt="" />
-            <p>Outros</p>
-          </a>
-        </article>
-      </section>
+    <main class="conteudo-principal">
+      <div class="conteudo-principal__acoes">
+        <button class="botao-voltar" id="botao-voltar" type="button" aria-label="Voltar" disabled>
+          <img src="./assets/arrow-left-solid-full.svg" alt="" />
+          <span>Voltar</span>
+        </button>
+      </div>
+      <div id="app" tabindex="-1"></div>
     </main>
-    <footer></footer>
+    <footer class="rodape">
+      <div class="rodape__conteudo">
+        <section class="rodape__marca" aria-label="Sobre o projeto">
+          <a class="rodape__logo" href="#/home">
+            <img src="./assets/face-smile-solid-full.svg" alt="" height="64" width="64">
+            <span>Resolva em um fim de semana!</span>
+          </a>
+        </section>
+        <nav class="rodape__links" aria-label="Links do rodapé">
+          <section>
+            <h2>Explore</h2>
+            <a href="#/home">Soluções para casa</a>
+          </section>
+          <section>
+            <h2>Redes sociais</h2>
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a>
+            <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">YouTube</a>
+          </section>
+        </nav>
+      </div>
+      <p class="rodape__aviso">Este projeto ajuda a resolver problemas básicos em casa. Em casos sérios, chame profissionais qualificados.</p>
+      <p class="rodape__copyright">Resolva em um fim de semana <span aria-hidden="true">|</span> &copy; 2026 - Tomorrow</p>
+    </footer>
 
-    <script type="module" src="/src/js/main.js"></script>
+    <script type="module" src="./src/js/main.js"></script>
   </body>
 </html>

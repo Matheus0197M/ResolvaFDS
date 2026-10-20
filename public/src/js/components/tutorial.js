@@ -30,6 +30,13 @@ export function Tutorial(t) {
         )
       )
     ),
-    videos.length ? secao("Vídeos relacionados", ...videos.map(VideoCard)) : null
+    videos.length
+      ? h(
+          "article",
+          { class: "tutorial__secao tutorial__videos" },
+          h("h2", {}, "Vídeos relacionados"),
+          ...videos.map(VideoCard)
+        )
+      : null
   );
 }
